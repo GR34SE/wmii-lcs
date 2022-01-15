@@ -38,6 +38,6 @@ if __name__ == '__main__':
     print get_longest_common_subsequence("abcdefghijk", "3453453453")  # - (0)
 
     # optimistic cases
-    print get_longest_common_subsequence("abcdefghijkplmnjki", "def_hijk")  # def (3)
+    print get_longest_common_subsequence("abcdefghijkplmnjki", "def_hijk")  # def (4)
     print get_longest_common_subsequence("___12345___", "345")  # 345 (3)
     print get_longest_common_subsequence("ab1122", "xxx_ab1_xxx")  # ab1 (3)
